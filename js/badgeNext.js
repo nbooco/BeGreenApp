@@ -1,7 +1,6 @@
 var progress;
 var current = {};
 $(document).ready(function(){
-	console.log(localStorage["userProgress"]);
 	setUp();
 	progress = JSON.parse(localStorage["userProgress"]);
 	finder();
@@ -9,7 +8,6 @@ $(document).ready(function(){
 });
 	
 function setUp() {
-	console.log(localStorage["userProgress"]);
 	//console.dir(JSON.stringify(localStorage));
 	if (!localStorage.hasOwnProperty("userProgress")) {
 		var myProgress = {
@@ -55,9 +53,6 @@ function finder() {
 			current = badges[i];
 		}
 	}
-	console.log(current.id.toString());
-	console.log(current.id.toString() in progress.badges);
-	console.log(Object.keys(progress.badges));
 	if (!(current.id.toString() in progress.badges)) {
 		$('.extra').hide();
 	};
@@ -74,19 +69,36 @@ function populator() {
 	$('#goal').html(current.earn);
 	$('#bonus').attr('src', 'images/' + current.bonus);
 	$('#bonus').attr('alt', current.bonusAlt);
+	console.log(progress);
 	$('#claim').on('click', function() {
 		$('.extra').fadeIn();
 		for (var k = 0; k < current.tags.length; k++) {
-			progress['total' + current.tags[k]] += 1;
+			progress['total' + current.tags[k]] += 1;			
 			if (!(current.id.toString() in progress.badges)) {
 				progress['distinct' + current.tags[k]] += 1;
 			};
 		}
-		if (!(current.id.toString() in Object.keys(progress.badges))) {
-			var d = new Date();
+		var d = new Date();
+		console.log((current.id.toString() in Object.keys(progress.badges)));
+		if (!(progress.badges.hasOwnProperty(current.id.toString()))) {
 			progress.badges[current.id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
 			progress['total'] += 1;
 		};
+		shiny = gov.green.awards.trophies;
+		for (var t = 0; t < shiny.length; t++) {
+			if (!(progress.trophies.hasOwnProperty(shiny[t].id.toString())) && (progress['distinct' + shiny[t].tags[0]] == shiny[t].requirement)) {
+				progress.trophies[shiny[t].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
+				progress['total'] += 1;
+			}
+		};
+		fancy = gov.green.awards.ribbons;
+		for (var r = 0; r < fancy.length; r++) {
+			if (!(progress.ribbons.hasOwnProperty(fancy[r].id.toString())) && (progress['total' + fancy[r].tags[0]] == fancy[r].requirement)) {
+				progress.ribbons[fancy[r].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
+				progress['total'] += 1;
+			}
+		};
+		console.log(progress);
 		localStorage.setItem('userProgress', JSON.stringify(progress));
 	})
 }
