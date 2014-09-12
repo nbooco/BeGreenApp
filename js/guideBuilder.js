@@ -20,11 +20,34 @@ function catPopulator() {
 				list.push(gov.green.awards.badges[j]);
 			};
 		};
+		for (var t = 0; t < gov.green.awards.trophies.length; t++) {
+			if (gov.green.awards.trophies[t].tags.indexOf(tag) != -1) {
+				list.push(gov.green.awards.trophies[t]);
+			};
+		};
+		for (var r = 0; r < gov.green.awards.ribbons.length; r++) {
+			if (gov.green.awards.ribbons[r].tags.indexOf(tag) != -1) {
+				list.push(gov.green.awards.ribbons[r]);
+			};
+		};
 		list.sort(function(a, b) {
-			return a.name > b.name;
+			if (a.name > b.name) {
+   				return 1;
+		    }
+		    if (a.name < b.name) {
+		        return -1;
+		    }
+		    // a must be equal to b
+		        return 0;
 		})
 		for (var k = 0; k < list.length; k++) {
-			$(cats[i]).find('.list-group').append("<a href='badge.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			if (list[k].tags[1] == 'Trophies') {
+				$(cats[i]).find('.list-group').append("<a href='trophy.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			} else if (list[k].tags[1] == 'Ribbons') {
+				$(cats[i]).find('.list-group').append("<a href='ribbon.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			} else {
+				$(cats[i]).find('.list-group').append("<a href='badge.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			}	
 		};
 	};
 }
@@ -39,11 +62,34 @@ function azPopulator() {
 				list.push(gov.green.awards.badges[j]);
 			};
 		};
+		for (var t = 0; t < gov.green.awards.trophies.length; t++) {
+			if (gov.green.awards.trophies[t].name.substr(0, 1) == start) {
+				list.push(gov.green.awards.trophies[t]);
+			};
+		};
+		for (var r = 0; r < gov.green.awards.ribbons.length; r++) {
+			if (gov.green.awards.ribbons[r].name.substr(0, 1) == start) {
+				list.push(gov.green.awards.ribbons[r]);
+			};
+		};
 		list.sort(function(a, b) {
-			return a.name > b.name;
+			if (a.name > b.name) {
+   				return 1;
+		    }
+		    if (a.name < b.name) {
+		        return -1;
+		    }
+		    // a must be equal to b
+		        return 0;
 		})
 		for (var k = 0; k < list.length; k++) {
-			$(letters[i]).find('.list-group').append("<a href='badge.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			if (list[k].tags[1] == 'Trophies') {
+				$(letters[i]).find('.list-group').append("<a href='trophy.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			} else if (list[k].tags[1] == 'Ribbons') {
+				$(letters[i]).find('.list-group').append("<a href='ribbon.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			} else {
+				$(letters[i]).find('.list-group').append("<a href='badge.html?id=" + list[k].id + "' class='list-group-item'>" + list[k].name + "</a>");
+			}	
 		};
 		if ($(letters[i]).find('.list-group').html() == "") {
 			$(letters[i]).hide();
