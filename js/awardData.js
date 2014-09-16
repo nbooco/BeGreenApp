@@ -260,41 +260,109 @@ gov.green.awards = {
 			bonus: 'info.png',
 			bonusAlt: 'alt for bonus'
 		}
-	]
-}
-
-/*	trophies: [
+	],
+	trophies: [
 		{
-			id: int,
-			name: 'name',
-			image: 'url',
+			id: 1,
+			name: 'SolidWaste - Bronze',
+			image: 'bronzeTrophy.png',
 			altText: 'alt for image',
-			earn: 'summary',
-			desc: 'approximately 1 paragraph of more in depth information',
-			tags: ['an', 'array', 'of associated', 'tags'],
-			levels: [5, 10, 15, 20],
-			bonus: 'url of datavis or unlocked fact',
+			earn: 'Earn 3 distinct SolidWaste badges.',
+			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement —The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			tags: ['SolidWaste', 'Trophies'],
+			requirement: 3,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
+		},
+		{
+			id: 2,
+			name: 'SolidWaste - Silver',
+			image: 'silverTrophy.png',
+			altText: 'alt for image',
+			earn: 'Earn 5 distinct SolidWaste badges.',
+			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement —The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			tags: ['SolidWaste', 'Trophies'],
+			requirement: 5,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
+		},
+		{
+			id: 3,
+			name: 'SolidWaste - Gold',
+			image: 'goldTrophy.png',
+			altText: 'alt for image',
+			earn: 'Earn 8 distinct SolidWaste badges.',
+			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement —The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			tags: ['SolidWaste', 'Trophies'],
+			requirement: 8,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
+		},
+		{
+			id: 4,
+			name: 'SolidWaste - Platinum',
+			image: 'platinumTrophy.png',
+			altText: 'alt for image',
+			earn: 'Earn all 10 distinct SolidWaste badges.',
+			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement —The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			tags: ['SolidWaste', 'Trophies'],
+			requirement: 10,
+			bonus: 'info.png',
 			bonusAlt: 'alt for bonus'
 		}
 	],
-
 	ribbons: [
 		{
-			id: int,
-			name: 'name',
-			image: 'url',
+			id: 1,
+			name: 'SolidWaste - Yellow',
+			image: 'ribbonYellowGreenStar.png',
 			altText: 'alt for image',
-			earn: 'summary',
-			desc: 'approximately 1 paragraph of more in depth information',
-			tags: ['an', 'array', 'of associated', 'tags'],
-			levels: [5, 10, 15, 20],
-			bonus: 'url of datavis or unlocked fact',
+			earn: 'Earn SolidWaste badges 5 times.',
+			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			tags: ['SolidWaste', 'Ribbons'],
+			requirement: 5,
+			bonus: 'info.png',
 			bonusAlt: 'alt for bonus'
-
+		},
+		{
+			id: 2,
+			name: 'SolidWaste - Red',
+			image: 'ribbonRedGrnStar.png',
+			altText: 'alt for image',
+			earn: 'Earn SolidWaste badges 10 times.',
+			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			tags: ['SolidWaste', 'Ribbons'],
+			requirement: 10,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
+		},
+		{
+			id: 3,
+			name: 'SolidWaste - Blue',
+			image: 'ribbonBlueGrnStar.png',
+			altText: 'alt for image',
+			earn: 'Earn SolidWaste badges 15 times.',
+			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			tags: ['SolidWaste', 'Ribbons'],
+			requirement: 15,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
+		},
+		{
+			id: 4,
+			name: 'SolidWaste - Green',
+			image: 'ribbonGreenGrnStar.png',
+			altText: 'alt for image',
+			earn: 'Earn SolidWaste badges 20 times.',
+			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			tags: ['SolidWaste', 'Ribbons'],
+			requirement: 20,
+			bonus: 'info.png',
+			bonusAlt: 'alt for bonus'
 		}
-	],
-
-	stickers: [
+	]
+}
+/*	stickers: [
 		{
 			id: int,
 			name: 'name',

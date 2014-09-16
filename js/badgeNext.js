@@ -2,6 +2,8 @@ var progress;
 var current = {};
 $(document).ready(function(){
 	setUp();
+	console.log(localStorage["userProgress"]);
+	console.log(typeof localStorage["userProgress"]);
 	progress = JSON.parse(localStorage["userProgress"]);
 	finder();
 	populator();
@@ -71,7 +73,6 @@ function populator() {
 	$('#bonus').attr('alt', current.bonusAlt);
 	console.log(progress);
 	$('#claim').on('click', function() {
-		$('.extra').fadeIn();
 		for (var k = 0; k < current.tags.length; k++) {
 			progress['total' + current.tags[k]] += 1;			
 			if (!(current.id.toString() in progress.badges)) {
@@ -89,6 +90,7 @@ function populator() {
 			if (!(progress.trophies.hasOwnProperty(shiny[t].id.toString())) && (progress['distinct' + shiny[t].tags[0]] == shiny[t].requirement)) {
 				progress.trophies[shiny[t].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
 				progress['total'] += 1;
+				$('p.extra').prepend("<div class='alert alert-warning alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='trophy.html?id=" + shiny[t].id + "'>" + shiny[t].name + " Trophy</a>!</div>");
 			}
 		};
 		fancy = gov.green.awards.ribbons;
@@ -96,10 +98,11 @@ function populator() {
 			if (!(progress.ribbons.hasOwnProperty(fancy[r].id.toString())) && (progress['total' + fancy[r].tags[0]] == fancy[r].requirement)) {
 				progress.ribbons[fancy[r].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
 				progress['total'] += 1;
+				$('p.extra').prepend("<div class='alert alert-info alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='ribbon.html?id=" + fancy[r].id + "'>" + fancy[r].name + " Ribbon</a>!</div>");
 			}
 		};
+		$('.extra').fadeIn();
 		console.log(progress);
 		localStorage.setItem('userProgress', JSON.stringify(progress));
 	})
 }
-	
