@@ -67,4 +67,11 @@ function populator() {
 	for (var i = 0; i < earned.length; i++) {
 		$('#ribbons').append("<figure><a href='ribbon.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + "' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + progress.ribbons[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
 	};
+	var stickerKeys = Object.keys(progress.stickers);
+	var earned = $.grep(source.stickers, function(obj) {
+		return stickerKeys.indexOf(obj.id.toString()) > -1;
+	})
+	for (var i = 0; i < earned.length; i++) {
+		$('#stickers').append("<figure><a href='sticker.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + "' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + progress.stickers[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
+	};
 }

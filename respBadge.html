@@ -55,6 +55,24 @@
           <li>Claim the relevant badge here. Over time you'll gain points and badges, which unlock other awards.</li>
           <li>Share your progress via Facebook or Twitter to compete with your friends and share what you've learned.</li>
         </ol>
+        <h2>Awards</h2>
+          <p>There are four types of awards you can earn with Seattle Green Achievers:</p>
+          <ul>
+            <li><strong><a href="guide.html">Badges</a></strong> represent individual, distinct green actions. Badges can be claimed multiple times if you repeat the green action; keeping track will help you make progress towards earning ribbons.</li>
+            <li><strong><a href="guide.html#Trophies">Trophies</a></strong> measure your willingness to experiment and the breadth of your green actions. Earning distinct badges in a category will get you closer to earning trophies.</li>
+            <li><strong><a href="guide.html#Ribbons">Ribbons</a></strong> reward consistency and building environmentally friendly habits. They are earned for your total number of green actions in a given category, including multiple claims of the same badge.</li>
+            <li><strong>Stickers</strong> are secret awards for unique combinations of badges. Earn as many different badges as possible to discover new stickers!</li>
+          </ul>
+          <p>All four types of awards will appear in your <a href="respCase.html">case</a> once earned. Progress towards trophies and ribbons can be tracked <a href="progress.html">here</a>.</p>
+        <h2>Technical Details and Saving Your Progress</h2>
+          <p>Seattle Green Achievers uses Javascript and <a href="http://www.w3schools.com/html/html5_webstorage.asp">HTML5 Local Storage</a>. If either is disabled, you won't be able to use this site. Seattle Green Achievers is supported by modern browsers; if you're having trouble, consider <a href="https://browser-update.org/update.html">updating your browser</a>.</p>
+          <h3>Saving Your Progress</h3>
+          <p>Seattle Green Achievers automatically saves your progress using local storage. However, clearing your browser cache can delete local storage data. To make sure that you don't lose your progress, you can save the text below. Enter the text in the Load Data field and submit to restore your progress. <strong>Altering the text may compromise your progress and the function of this site.</strong></p>
+          <p><strong>Your Progress</strong></p>
+          <textarea id="save" cols="150" rows="10" readonly></textarea>
+          <p><strong>Load Data</strong></p>
+          <textarea id="load" placeholder="Paste your save data text here." cols="150" rows="10"></textarea>
+          <p class="foo"><button class="btn" id="gogogo">Submit</button></p>
         <h2>What's New?</h2>
         <p><strong>August 12th, 2014</strong></p>
           <ul>
@@ -107,5 +125,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
     <script src="dist/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/browserUpdate.js"></script>
+
+    <script type="text/javascript" src="js/hub.js"></script>
   </body>
 </html>

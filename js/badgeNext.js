@@ -1,6 +1,7 @@
 var progress;
 var current = {};
 $(document).ready(function(){
+	console.log(localStorage.hasOwnProperty('userProgress'));
 	setUp();
 	console.log(localStorage["userProgress"]);
 	console.log(typeof localStorage["userProgress"]);
@@ -82,23 +83,41 @@ function populator() {
 		var d = new Date();
 		console.log((current.id.toString() in Object.keys(progress.badges)));
 		if (!(progress.badges.hasOwnProperty(current.id.toString()))) {
-			progress.badges[current.id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
+			progress.badges[current.id.toString()] = (d.getMonth() + 1) + '/' + d.getDate() + '/' + (d.getFullYear() % 100);
 			progress['total'] += 1;
+		} else {
+			$('p.extra').prepend("<div class='alert alert-success alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Nice Job!</strong> You've gained points towards earning <a class='alert-link' href='guide.html#Ribbons'>Ribbons</a>!</div>");
+		};
+		playful = gov.green.awards.stickers;
+		for (var s = 0; s < playful.length; s++) {
+			if (!(progress.stickers.hasOwnProperty(playful[s].id.toString()))) {
+				var worthy = true;
+				for (var i = 0; i < playful[s].components.length; i++) {
+					if (!(progress.badges.hasOwnProperty(playful[s].components[i].toString()))) {
+						worthy = false;
+					};
+				};
+				if (worthy) {
+					progress.stickers[playful[s].id.toString()] = (d.getMonth() + 1) + '/' + d.getDate() + '/' + (d.getFullYear() % 100);
+					progress['total'] += 1;
+					$('p.extra').prepend("<div class='alert alert-success alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='sticker.html?id=" + playful[s].id + "'>" + playful[s].name + " Sticker</a>!</div>");
+				}
+			}
+		}
+		fancy = gov.green.awards.ribbons;
+		for (var r = 0; r < fancy.length; r++) {
+			if (!(progress.ribbons.hasOwnProperty(fancy[r].id.toString())) && (progress['total' + fancy[r].tags[0]] == fancy[r].requirement)) {
+				progress.ribbons[fancy[r].id.toString()] = (d.getMonth() + 1) + '/' + d.getDate() + '/' + (d.getFullYear() % 100);
+				progress['total'] += 1;
+				$('p.extra').prepend("<div class='alert alert-success alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='ribbon.html?id=" + fancy[r].id + "'>" + fancy[r].name + " Ribbon</a>!</div>");
+			}
 		};
 		shiny = gov.green.awards.trophies;
 		for (var t = 0; t < shiny.length; t++) {
 			if (!(progress.trophies.hasOwnProperty(shiny[t].id.toString())) && (progress['distinct' + shiny[t].tags[0]] == shiny[t].requirement)) {
-				progress.trophies[shiny[t].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
+				progress.trophies[shiny[t].id.toString()] = (d.getMonth() + 1) + '/' + d.getDate() + '/' + (d.getFullYear() % 100);
 				progress['total'] += 1;
-				$('p.extra').prepend("<div class='alert alert-warning alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='trophy.html?id=" + shiny[t].id + "'>" + shiny[t].name + " Trophy</a>!</div>");
-			}
-		};
-		fancy = gov.green.awards.ribbons;
-		for (var r = 0; r < fancy.length; r++) {
-			if (!(progress.ribbons.hasOwnProperty(fancy[r].id.toString())) && (progress['total' + fancy[r].tags[0]] == fancy[r].requirement)) {
-				progress.ribbons[fancy[r].id.toString()] = d.getMonth() + '/' + d.getDay() + '/' + (d.getFullYear() % 100);
-				progress['total'] += 1;
-				$('p.extra').prepend("<div class='alert alert-info alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='ribbon.html?id=" + fancy[r].id + "'>" + fancy[r].name + " Ribbon</a>!</div>");
+				$('p.extra').prepend("<div class='alert alert-success alert-dismissible' role='alert'><button type='button' class='close' data-dismiss='alert'><span aria-hidden='true'>&times;</span><span class='sr-only'>Close</span></button><strong>Congratulations!</strong> You've earned the <a class='alert-link' href='trophy.html?id=" + shiny[t].id + "'>" + shiny[t].name + " Trophy</a>!</div>");
 			}
 		};
 		$('.extra').fadeIn();
