@@ -1,11 +1,26 @@
-//use existing 'gov' if defined
+/* Award data for Seattle Be Green app
+
+Establish namespace to prevent interference with or by other global variables
+Use existing 'gov' if defined */
 var gov = gov || {};
 
-//use existing 'gov.green' if defined
+// Use existing 'gov.green' if defined
 gov.green = gov.green || {};
 
-//our menu object
+// Data
 gov.green.awards = {
+	/* Badge: award claimed for individual green actions
+		format {
+		id: distinct, sequential integer,
+		name: Short descriptive or clever name,
+		image: Name of badge image in file; no path needed,
+		altText: Shortened version of summary,
+		earn: Summary of task required to earn badge including link to related materials,
+		desc: Approximately one paragraph explaining issue and how action helps; may include other relevant info,
+		tags: Array of relevant tags - see guide for list of tags,
+		bonus: Name of infovis in file; no path needed,
+		bonusAlt: Short summary of information presented by bonus image
+	} */
 	badges: [
 		{
 			id: 1,
@@ -812,6 +827,19 @@ gov.green.awards = {
 			bonusAlt: 'alt for bonus'
 		}
 	],
+	/* Trophy: Meta award earned for earning multiple distinct badges in a given category 
+		format {
+			id: distinct, sequential integer,
+			name: Heroic title that references associated category - rank (Bronze, Silver, Gold, Platinum),
+			image: Name of trophy image in file; no path needed,
+			altText: Congratulatory message,
+			earn: One sentence mentioning number of distinct badges needed to earn,
+			desc: Approximately one paragraph explaining issue and how action helps; may include other relevant info,
+			tags: Associated category at [0] and award type (Trophies) at [1],
+			requirement: Integer value of distinct badges needed to earn,
+			bonus: Name of infovis in file; no path needed,
+			bonusAlt: Short summary of information presented by bonus image
+	} */
 	trophies: [
 		{
 			id: 1,
@@ -934,6 +962,19 @@ gov.green.awards = {
 			bonusAlt: 'alt for bonus'
 		}
 	],
+	/* Ribbon: Meta award earned for earning badges in a given category a number of times (includes repeat badges) 
+		format {
+			id: distinct, sequential integer,
+			name: Descriptive or clever name that references associated category - rank (Yellow, Red, Blue, Green),
+			image: Name of ribbon image in file; no path needed,
+			altText: Congratulatory message,
+			earn: One sentence mentioning number of total badges needed to earn,
+			desc: Approximately one paragraph explaining issue and how action helps; may include other relevant info,
+			tags: Associated category at [0] and award type (Ribbons) at [1],
+			requirement: Integer value of total badges needed to earn,
+			bonus: Name of infovis in file; no path needed,
+			bonusAlt: Short summary of information presented by bonus image
+	} */
 	ribbons: [
 		{
 			id: 1,
@@ -1128,6 +1169,19 @@ gov.green.awards = {
 			bonusAlt: 'alt for bonus'
 		}
 	],
+	/* Sticker: Secret meta award earned for interesting or related combinations of badges 
+		format {
+			id: distinct, sequential integer,
+			name: Descriptive or clever name that references component actions,
+			image: Name of sticker image in file; no path needed,
+			altText: Congratulatory message,
+			earn: One sentence mentioning and linking to component badges,
+			components: Array containing id integers of badges needed to earn,
+			desc: Approximately one paragraph explaining issue and how action helps; may include other relevant info,
+			tags: Aggregate list of tags from component badges,
+			bonus: Name of infovis in file; no path needed,
+			bonusAlt: Short summary of information presented by bonus image
+	} */
 	stickers: [
 		{
 			id: 1,
@@ -1136,7 +1190,7 @@ gov.green.awards = {
 			altText: 'alt for image',
 			earn: "Show off your green thumbs by earning the <a href='badge.html?id=11'>Cherry-Picked</a> and " + 
 				"<a href='badge.html?id=16'>A New Leaf</a> badges.",
-			components: [11, 16], // Array of id numbers needed to earn sticker.
+			components: [11, 16],
 			desc: "<p>Hey, whatcha watching? Doomsday device? Ah, now the ball's in Farnsworth's court! Now, now. " + 
 				"Perfectly symmetrical violence never solved anything. In your time, yes, but nowadays shut up! " + 
 				"Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for " + 

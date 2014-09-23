@@ -1,0 +1,50 @@
+body {
+  padding-top: 30px;
+  margin-bottom: 30px;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+.promo, .case {
+	background-color: #C0C0C0;
+	border-radius: 10px;
+	overflow: hidden;
+}
+.promo img {
+	float: left;
+}
+.promo h2 {
+	margin: 10px;
+}
+.case figure {
+	float: left;
+	padding: 10px;
+}
+.footer {
+	bottom: 0;
+	height: 40px;
+	background-color: black;
+	color: white;
+	width: 100%;
+}
+figcaption {
+	text-align: center;
+}
+.working {
+	width: 200px;
+	float: left;
+	margin: 10px;
+}
+.progress {
+	margin: 0;
+}
+img#bonus {
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	min-width: 60%;
+}
+#badge {
+	min-width: 25%;
+}
