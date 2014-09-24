@@ -706,7 +706,7 @@ gov.green.awards = {
 		},
 		{
 			id: 43,
-			name: 'Seal of Approval',
+			name: 'High and Dry',
 			image: '43-DryFullLoads.png',
 			altText: 'Dry full loads of laundry',
 			earn: "Dry only full loads while doing laundry.",

@@ -62,7 +62,7 @@
 	// Searches ribbon data until it finds ribbon with passed id
 	function findAndStop(arr, value) {
 		for (var i = 0; i < arr.length; i++) {
-			if (arr[i].id = value) {
+			if (arr[i].id == value) {
 				return arr[i];
 			}
 		};
