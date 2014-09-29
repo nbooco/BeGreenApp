@@ -71,6 +71,7 @@
 	// Adds content to appropriate page sections and defines claim functionality
 	function populator() {
 		// Populates page sections
+		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
 		$('#badge').attr('src', 'images/' + current.image);
 		$('#badge').attr('alt', current.altText);

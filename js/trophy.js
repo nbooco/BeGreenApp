@@ -70,6 +70,7 @@
 
 	// Adds content to appropriate page sections
 	function populator() {
+		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
 		$('#badge').attr('src', 'images/' + current.image);
 		$('#badge').attr('alt', current.altText);
