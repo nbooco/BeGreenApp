@@ -70,6 +70,7 @@
 
 	// Adds content to appropriate page sections
 	function populator() {
+		$('#twitter').attr('data-text', 'I earned the ' + current.name + ' ribbon on the Seattle Big Green Challenge!');
 		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
 		$('#badge').attr('src', 'images/' + current.image);

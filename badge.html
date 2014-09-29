@@ -55,7 +55,7 @@
         <p>Done? <button class="btn" id="claim">Claim this badge!</button>
           <!--Content and functionality unlocked by claiming badge-->
           <span class="extra"> <span class="glyphicon glyphicon-ok"></span> You've earned this badge. If you've repeated this green action, claim it again to make progress towards earning <a href="guide.html#Ribbons">ribbons</a>.</span></p>
-        <p class="extra">Share this badge: <button class="btn">Facebook</button> <button class="btn">Twitter</button></p>
+        <p class="extra">Share this badge: <button class="btn">Facebook</button> <a id="twitter" href="https://twitter.com/share" class="twitter-share-button" data-text="" data-size="large" data-count="none">Tweet</a></p>
         <img src="" id="bonus" class="extra">
     </div><!-- /.container -->
 
@@ -69,6 +69,8 @@
     <script type="text/javascript" src="js/browserUpdate.js"></script>
     <script type="text/javascript" src="js/awardData.js"></script>
     <script type="text/javascript" src="js/badge.js" defer></script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
   </body>
 </html>

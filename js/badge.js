@@ -71,6 +71,7 @@
 	// Adds content to appropriate page sections and defines claim functionality
 	function populator() {
 		// Populates page sections
+		$('#twitter').attr('data-text', 'I earned the ' + current.name + ' badge on the Seattle Big Green Challenge!');
 		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
 		$('#badge').attr('src', 'images/' + current.image);

@@ -54,7 +54,7 @@
         <p>To earn: <em id="goal"></em></p>
         <!--Content and functionality unlocked by earning trophy-->
         <p><span class="extra"> <span class="glyphicon glyphicon-ok"></span> You've already earned this trophy.</span></p>
-        <p class="extra">Share this trophy: <button class="btn">Facebook</button> <button class="btn">Twitter</button></p>
+        <p class="extra">Share this trophy: <button class="btn">Facebook</button> <a id="twitter" href="https://twitter.com/share" class="twitter-share-button" data-text="" data-size="large" data-count="none">Tweet</a></p>
         <img src="" id="bonus" class="extra">
     </div><!-- /.container -->
 
@@ -67,6 +67,8 @@
     <script type="text/javascript" src="js/browserUpdate.js"></script>  
     <script type="text/javascript" src="js/awardData.js"></script>
     <script type="text/javascript" src="js/trophy.js" defer></script>
+
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+'://platform.twitter.com/widgets.js';fjs.parentNode.insertBefore(js,fjs);}}(document, 'script', 'twitter-wjs');</script>
 
   </body>
 </html>
