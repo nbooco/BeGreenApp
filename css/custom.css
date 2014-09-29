@@ -48,3 +48,6 @@ img#bonus {
 #badge {
 	min-width: 25%;
 }
+textarea {
+	width: 100%;
+}

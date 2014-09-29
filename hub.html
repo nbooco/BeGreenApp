@@ -72,9 +72,17 @@
           <p>Seattle Big Green Challenge automatically saves your progress using local storage. However, clearing your browser cache can delete local storage data. To make sure that you don't lose your progress, you can save the text below. Enter the text in the Load Data field and submit to restore your progress. <strong>Altering the text may compromise your progress and the function of this site.</strong></p>
           <!--Save and load areas accessed by hub.js-->
           <p><strong>Your Progress</strong></p>
-          <textarea id="save" cols="150" rows="10" readonly></textarea>
+          <div class="row">
+            <div class="col-xs-12">
+              <textarea id="save" rows="15" readonly></textarea>
+            </div>
+          </div>
           <p><strong>Load Data</strong></p>
-          <textarea id="load" placeholder="Paste your save data text here." cols="150" rows="10"></textarea>
+          <div class="row">
+            <div class="col-xs-12">
+              <textarea id="load" placeholder="Paste your save data text here." cols="150" rows="15"></textarea>
+            </div>
+          </div>
           <p class="foo"><button class="btn" id="gogogo">Submit</button></p>
         <!--Updates - new badges, features, etc.-->
         <h2>What's New?</h2>
