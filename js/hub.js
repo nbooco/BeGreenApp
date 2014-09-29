@@ -3,9 +3,11 @@
 (function() {		
 	var progress;
 	$(document).ready(function(){
+		var featured;
 		setUp();
 		progress = JSON.parse(localStorage["userProgress"]);
 		populator();
+		botd();
 	});
 	
 	// Initializes an empty user data file if none exists	
@@ -110,5 +112,24 @@
 					"again, or feel free to <a class='alert-link' href='guide.html'>recreate your progress</a>.</div>");
 			}
 		})
+	}
+
+	function botd() {
+		featured = picker();
+		$('#badge').attr('src', 'images/' + featured.image);
+		$('#badge').attr('alt', featured.altText);
+		$('#name').text(featured.name);
+		$('#text').html(featured.desc);
+		for (var j = 0; j < featured.tags.length; j++) {
+			$('#tags').append('<a href="guide.html#' + featured.tags[j] + '">' + ' ' + featured.tags[j] + ' </a>' );
+		};
+		$('#goal').html(featured.earn);
+		$('#link').html('<a href="badge.html?id=' + featured.id + '">Learn more</a>')
+	}
+
+	function picker() {
+		var options = gov.green.awards.badges;
+		var possible = options.length;
+		return options[Math.floor((Math.random() * possible))];
 	}
 }());
