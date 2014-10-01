@@ -48,6 +48,35 @@
 
 	// Populate case sections
 	function populator() {
+		// Set up tweet buttons for each award type, unless no awards of that type have been earned.
+		if (Object.keys(progress.trophies).length == 1) {
+			$("#tweetTrophy").attr("data-text", "I've earned " + Object.keys(progress.trophies).length + " trophy on the Seattle Big Green Challenge!");
+		} else if (Object.keys(progress.trophies).length > 1) {
+			$("#tweetTrophy").attr("data-text", "I've earned " + Object.keys(progress.trophies).length + " trophies on the Seattle Big Green Challenge!");
+		} else {
+			$("#tweetTrophy").parent().hide();
+		};
+		if (Object.keys(progress.ribbons).length == 1) {
+			$("#tweetRibbon").attr("data-text", "I've earned " + Object.keys(progress.ribbons).length + " ribbon on the Seattle Big Green Challenge!");
+		} else if (Object.keys(progress.ribbons).length > 1) {
+			$("#tweetRibbon").attr("data-text", "I've earned " + Object.keys(progress.ribbons).length + " ribbons on the Seattle Big Green Challenge!");
+		} else {
+			$("#tweetRibbon").parent().hide();
+		};
+		if (Object.keys(progress.stickers).length == 1) {
+			$("#tweetSticker").attr("data-text", "I've earned " + Object.keys(progress.stickers).length + " sticker on the Seattle Big Green Challenge!");
+		} else if (Object.keys(progress.stickers).length > 1) {
+			$("#tweetSticker").attr("data-text", "I've earned " + Object.keys(progress.stickers).length + " stickers on the Seattle Big Green Challenge!");
+		} else {
+			$("#tweetSticker").parent().hide();
+		};
+		if (Object.keys(progress.badges).length == 1) {
+			$("#tweetBadge").attr("data-text", "I've earned " + Object.keys(progress.badges).length + " badge on the Seattle Big Green Challenge!");
+		} else if (Object.keys(progress.badges).length > 1) {
+			$("#tweetBadge").attr("data-text", "I've earned " + Object.keys(progress.badges).length + " badges on the Seattle Big Green Challenge!");
+		} else {
+			$("#tweetBadge").parent().hide();
+		};
 		var source = gov.green.awards;
 		var badgeKeys = Object.keys(progress.badges);
 		// Find all earned badges
