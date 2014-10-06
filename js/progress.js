@@ -55,10 +55,11 @@
 				var soFar = progress["distinct" + source.trophies[i].tags[0]];
 				var threshold = source.trophies[i].requirement;
 				var bar = (soFar / threshold).toFixed(2) * 100;
+				var nameLevel = source.trophies[i].name.split(" - ");
 				$('#trophies').append("<figure></figure>");
 				$('#trophies figure').last().append("<a href='trophy.html?id=" + source.trophies[i].id + 
 					"'><img src='images/" + source.trophies[i].image + "' alt='" + source.trophies[i].name + 
-					"'><figcaption>" + source.trophies[i].name + "<br />" + soFar + " of " + threshold + 
+					"'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br />" + soFar + " of " + threshold + 
 					" badges</figcaption><div class='progress'><div class='progress-bar' " + 
 					"role='progressbar' aria-valuenow='" + progress["distinct" + source.trophies[i].tags[0]] + 
 					"' aria-valuemin='0' aria-valuemax='" + threshold + "' style='width: " + bar + "%;'>" + 
@@ -71,10 +72,11 @@
 				var soFar = progress["distinct" + source.ribbons[i].tags[0]];
 				var threshold = source.ribbons[i].requirement;
 				var bar = (soFar / threshold).toFixed(2) * 100;
+				var nameLevel = source.ribbons[i].name.split(" - ");
 				$('#ribbons').append("<figure></figure>");
 				$('#ribbons figure').last().append("<a href='ribbon.html?id=" + source.ribbons[i].id + 
 					"'><img src='images/" + source.ribbons[i].image + "' alt='" + source.ribbons[i].name + 
-					"'><figcaption>" + source.ribbons[i].name + "<br />" + soFar + " of " + threshold + 
+					"'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br />" + soFar + " of " + threshold + 
 					" badges</figcaption><div class='progress'><div class='progress-bar' " + 
 					"role='progressbar' aria-valuenow='" + progress["distinct" + source.ribbons[i].tags[0]] + 
 					"' aria-valuemin='0' aria-valuemax='" + threshold + "' style='width: " + bar + "%;'>" + 

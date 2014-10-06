@@ -96,8 +96,9 @@
 		})
 		// Add earned trophies to trophy case
 		for (var i = 0; i < earned.length; i++) {
+			var nameLevel = earned[i].name.split(" - ");
 			$('#trophies').append("<figure><a href='trophy.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + 
+				"' src='images/" + earned[i].image + "'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br /><em>Earned " + 
 				progress.trophies[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
 		};
 		var ribbonKeys = Object.keys(progress.ribbons);
@@ -107,8 +108,9 @@
 		})
 		// Add earned ribbons to ribbon case
 		for (var i = 0; i < earned.length; i++) {
+			var nameLevel = earned[i].name.split(" - ");
 			$('#ribbons').append("<figure><a href='ribbon.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + 
+				"' src='images/" + earned[i].image + "'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br /><em>Earned " + 
 				progress.ribbons[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
 		};
 		var stickerKeys = Object.keys(progress.stickers);
