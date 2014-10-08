@@ -56,7 +56,16 @@
 		// Hide bonus content if badge has not yet been claimed
 		if (!(current.id.toString() in progress.badges)) {
 			$('.extra').hide();
-		};
+		} else {
+			$('#fbContainer').append('<div class="fb-share-button" data-href="' + document.URL + '" data-width="76" data-layout="button"></div>');
+			(function(d, s, id) {
+      			var js, fjs = d.getElementsByTagName(s)[0];
+      			if (d.getElementById(id)) return;
+      			js = d.createElement(s); js.id = id;
+      			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      			fjs.parentNode.insertBefore(js, fjs);
+      		}(document, 'script', 'facebook-jssdk'));
+      	};
 	}
 
 	// Searches badges data until it finds badge with passed id
@@ -154,7 +163,16 @@
 				}
 			};
 			// Reveals bonus content
-			$('.extra').fadeIn();
+			
+			$('#fbContainer').append('<div class="fb-share-button" data-href="' + document.URL + '" data-width="76" data-layout="button"></div>');
+			(function(d, s, id) {
+      			var js, fjs = d.getElementsByTagName(s)[0];
+      			if (d.getElementById(id)) return;
+      			js = d.createElement(s); js.id = id;
+      			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      			fjs.parentNode.insertBefore(js, fjs);
+      		}(document, 'script', 'facebook-jssdk'));
+      		$('.extra').fadeIn();
 			// Updates saved progress
 			localStorage.setItem('userProgress', JSON.stringify(progress));
 		})
