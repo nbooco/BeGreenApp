@@ -66,6 +66,9 @@
 					"<span class='sr-only'>" + soFar + "/" + threshold + "</span></div></div></a>");	  
 			}
 		};
+		if (!($('#trophies').children().length)) {
+			$('#trophies').prev().hide();
+		};
 		for (var i = 0; i < source.ribbons.length; i++) {
 			// Check if ribbon has been earned
 			if (!(progress.ribbons.hasOwnProperty(source.ribbons[i].id.toString()))) {
@@ -82,6 +85,9 @@
 					"' aria-valuemin='0' aria-valuemax='" + threshold + "' style='width: " + bar + "%;'>" + 
 					"<span class='sr-only'>" + soFar + "/" + threshold + "</span></div></div></a>");	  
 			}
+		};
+		if (!($('#ribbons').children().length)) {
+			$('#ribbons').prev().hide();
 		};
 	}
 }());
