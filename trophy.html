@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" itemscope itemtype="http://schema.org/Action">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -54,7 +54,7 @@
         <p>To earn: <em id="goal"></em></p>
         <!--Content and functionality unlocked by earning trophy-->
         <p><span class="extra"> <span class="glyphicon glyphicon-ok"></span> You've already earned this trophy.</span></p>
-        <span class="extra">Share this trophy: <a id="twitter" href="https://twitter.com/share" class="twitter-share-button" data-text="" data-count="none" data-hashtags="BigGreenChallenge">Tweet</a> <div class="fb-share-button" data-href="" data-width="76" data-layout="button"></div></span>
+        <span class="extra">Share this trophy: <a id="twitter" href="https://twitter.com/share" class="twitter-share-button" data-text="" data-count="none" data-hashtags="BigGreenChallenge">Tweet</a> <span id="fbContainer"></span> <span id="gPlus"><g:plusone size="medium"></g:plusone></span></span>
         <img src="" id="bonus" class="extra">
     </div><!-- /.container -->
 
@@ -78,5 +78,6 @@
       }(document, 'script', 'facebook-jssdk'));
     </script>
 
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
   </body>
 </html>

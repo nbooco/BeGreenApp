@@ -70,6 +70,8 @@
 
 	// Adds content to appropriate page sections
 	function populator() {
+		$('head').prepend('<meta itemprop="name" content="' + current.name + '"><meta itemprop="description" content="' 
+			+ current.desc + '"><meta itemprop="image" content="images/' + current.image + '">');
 		$('#twitter').attr('data-text', 'I earned the ' + current.name + ' ribbon on the Seattle Big Green Challenge!');
 		$('.fb-share-button').attr('data-href', window.location);
 		$('title').prepend(current.name + " ");
@@ -83,5 +85,13 @@
 		$('#goal').html(current.earn);
 		$('#bonus').attr('src', 'images/' + current.bonus);
 		$('#bonus').attr('alt', current.bonusAlt);
+		$('#fbContainer').append('<div class="fb-share-button" data-href="' + document.URL + '" data-width="76" data-layout="button"></div>');
+			(function(d, s, id) {
+      			var js, fjs = d.getElementsByTagName(s)[0];
+      			if (d.getElementById(id)) return;
+      			js = d.createElement(s); js.id = id;
+      			js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.0";
+      			fjs.parentNode.insertBefore(js, fjs);
+      		}(document, 'script', 'facebook-jssdk'));
 	}
 }());
