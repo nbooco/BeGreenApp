@@ -71,6 +71,7 @@
 	// Adds content to appropriate page sections
 	function populator() {
 		$('#twitter').attr('data-text', 'I earned the ' + current.name + ' trophy on the Seattle Big Green Challenge!');
+		$('.fb-share-button').attr('data-href', window.location);
 		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
 		$('#badge').attr('src', 'images/' + current.image);

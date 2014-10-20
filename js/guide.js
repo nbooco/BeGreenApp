@@ -14,7 +14,6 @@
 		catPopulator();
 		azPopulator();
 		// Resets page length to make anchor lengths work properly
-		window.location.replace(window.location.href);
 	})
 
 	// Initializes an empty user data file if none exists	

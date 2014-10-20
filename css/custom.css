@@ -56,3 +56,9 @@ img#bonus {
 textarea {
 	width: 100%;
 }
+iframe.twitter-share-button {
+	vertical-align: middle;
+}
+#gPlus {
+	vertical-align: sub;
+} 

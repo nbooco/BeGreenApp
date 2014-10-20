@@ -445,7 +445,7 @@ gov.green.awards = {
 				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
 				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
 				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
-			tags: ['Community', 'Streets'],
+			tags: ['Community'],
 			bonus: 'info.png',
 			bonusAlt: 'alt for bonus'
 		},

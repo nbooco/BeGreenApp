@@ -80,6 +80,8 @@
 	// Adds content to appropriate page sections and defines claim functionality
 	function populator() {
 		// Populates page sections
+		$('head').prepend('<meta itemprop="name" content="' + current.name + '"><meta itemprop="description" content="' 
+			+ current.desc + '"><meta itemprop="image" content="images/' + current.image + '">');
 		$('#twitter').attr('data-text', 'I earned the ' + current.name + ' badge on the Seattle Big Green Challenge!');
 		$('title').prepend(current.name + " ");
 		$('#name').text(current.name);
@@ -163,7 +165,6 @@
 				}
 			};
 			// Reveals bonus content
-			
 			$('#fbContainer').append('<div class="fb-share-button" data-href="' + document.URL + '" data-width="76" data-layout="button"></div>');
 			(function(d, s, id) {
       			var js, fjs = d.getElementsByTagName(s)[0];
