@@ -61,4 +61,10 @@ iframe.twitter-share-button {
 }
 #gPlus {
 	vertical-align: sub;
-} 
+}
+span.extra {
+	display: flex;
+}
+#twitter, #fbContainer, #gPlus {
+	margin-left: 5px;
+}
