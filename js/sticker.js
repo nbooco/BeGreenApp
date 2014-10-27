@@ -80,7 +80,7 @@
 		$('#badge').attr('alt', current.altText);
 		$('#badgeText').html(current.desc);
 		for (var j = 0; j < current.tags.length; j++) {
-			$('#tags').append('<a href="guide.html#' + current.tags[j] + '">' + ' ' + current.tags[j] + ' </a>' );
+			$('#tags').append('<a href="guide.html?cat=' + current.tags[j] + '">' + ' ' + current.tags[j] + ' </a>' );
 		};
 		$('#goal').html(current.earn);
 		$('#bonus').attr('src', 'images/' + current.bonus);

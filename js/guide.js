@@ -13,6 +13,9 @@
 		})
 		catPopulator();
 		azPopulator();
+		if (window.location.toString().indexOf('?cat=') >= 0) {
+			nav();
+		}
 		// Resets page length to make anchor lengths work properly
 	})
 
@@ -160,5 +163,11 @@
 				$(letters[i]).hide();
 			};
 		};
+	}
+
+	// Scrolls to the passed category
+	function nav() {
+		var separator = window.location.toString().split("?cat=");
+		window.scrollTo(0, $('#' + separator[1]).offset().top - 65);
 	}
 }());
