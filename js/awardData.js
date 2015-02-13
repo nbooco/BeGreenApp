@@ -27,15 +27,10 @@ gov.green.awards = {
 			name: 'Prior Knowledge',
 			image: '1-ShareRecycling.png',
 			altText: 'Share information about recycling',
-			earn: "Share <a href='http://www.seattle.gov/util/MyServices/Recycling/BldgOwnersManagers_Recycling/" + 
-				"HelpResidentsRecycle/index.htm'>educational materials</a> about recycling in your building or home.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Share <a href='http://www.seattle.gov/util/MyServices/Recycling/BldgOwnersManagers_Recycling/HelpResidentsRecycle/index.htm'>educational materials</a> about recycling in your building or home.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Recycling', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -43,16 +38,10 @@ gov.green.awards = {
 			name: 'Brain Food',
 			image: '2-ShareFoodYardWaste.png',
 			altText: 'Share information about composting.',
-			earn: "Share <a href='http://www.seattle.gov/util/MyServices/FoodYard/BldgOwnersManagers_FoodYard/" + 
-				"HelpResidentsCompost/index.htm'>educational materials</a> about food and yard waste in your " + 
-				"building or home.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Share <a href='http://www.seattle.gov/util/MyServices/FoodYard/BldgOwnersManagers_FoodYard/HelpResidentsCompost/index.htm'>educational materials</a> about food and yard waste in your building or home.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'FoodAndYard', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -60,15 +49,10 @@ gov.green.awards = {
 			name: 'Salvage',
 			image: '3-reuseOldProduct.png',
 			altText: 'Find a new use for an old item.',
-			earn: "<a href='http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted'>Find</a> a creative way " + 
-				"to reuse an old product, rather than sending it to be processed as waste.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted'>Find</a> a creative way to reuse an old product, rather than sending it to be processed as waste.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Reuse', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -77,13 +61,9 @@ gov.green.awards = {
 			image: '4-donate.png',
 			altText: 'Donate a gently used item.',
 			earn: "Donate a product in usable condition you would have otherwise thrown out.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Reuse', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -91,15 +71,10 @@ gov.green.awards = {
 			name: 'Paper Cut',
 			image: '5-StopJunkMail.png',
 			altText: 'Stop unwanted junk mail.',
-			earn: "Reduce your paper waste by <a href='http://www.seattle.gov/util/MyServices/Recycling/" + 
-				"ReduceReuse/StopJunkMail/index.htm'>stopping</a> junk mail.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Reduce your paper waste by <a href='http://www.seattle.gov/util/MyServices/Recycling/ReduceReuse/StopJunkMail/index.htm'>stopping</a> junk mail.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -107,15 +82,10 @@ gov.green.awards = {
 			name: 'Historical Documents',
 			image: '6-StopPhoneBooks.png',
 			altText: 'Stop unwanted phonebooks.',
-			earn: "Reduce your paper waste by <a href='http://www.seattle.gov/util/MyServices/Recycling/" + 
-				"ReduceReuse/StopJunkMail/index.htm'>stopping</a> unwanted phone books.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Reduce your paper waste by <a href='http://www.seattle.gov/util/MyServices/Recycling/ReduceReuse/StopJunkMail/index.htm'>stopping</a> unwanted phone books.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -124,13 +94,9 @@ gov.green.awards = {
 			image: '7-reusableBag.png',
 			altText: 'Use a reusable bag when you go shopping.',
 			earn: "Use a reusable bag when you go shopping to reduce waste from disposable bags.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Reuse', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -139,13 +105,9 @@ gov.green.awards = {
 			image: '8-reusableMug.png',
 			altText: 'Use a reusable mug',
 			earn: "Bring a reusable coffee mug instead of getting your drink in a disposable cup.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Reuse', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -153,16 +115,11 @@ gov.green.awards = {
 			name: 'Earth Defense FORC',
 			image: '9-FORC.png',
 			altText: 'Participate in the Friends of Recycling and Composting program.',
-			earn: "Participate in the <a href='http://www.seattle.gov/util/MyServices/FoodYard/" + 
-				"BldgOwnersManagers_FoodYard/RecyclingSteward/index.htm'>Friends of Recycling and Composting " + 
+			earn: "Participate in the <a href='http://www.seattle.gov/util/MyServices/FoodYard/BldgOwnersManagers_FoodYard/RecyclingSteward/index.htm'>Friends of Recycling and Composting " + 
 				"program</a>.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'FoodAndYard', 'Recycling', 'SolidWaste'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -170,16 +127,10 @@ gov.green.awards = {
 			name: 'Rain or Shine',
 			image: '10-ReadManagingRainwater.png',
 			altText: 'Learn about household rainwater management',
-			earn: "Read the <a href='http://www.seattle.gov/util/groups/public/@spu/@conservation/documents/" + 
-				"webcontent/01_011612.pdf'>Managing Rainwater document</a> to learn about home improvements " + 
-				"that control runoff.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Read the <a href='http://www.seattle.gov/util/groups/public/@spu/@conservation/documents/webcontent/01_011612.pdf'>Managing Rainwater document</a> to learn about home improvements that control runoff.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Document', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -187,16 +138,10 @@ gov.green.awards = {
 			name: 'Cherry-Picked',
 			image: '11-ChoosePlants.png',
 			altText: 'Pick appropriate garden plants',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/" + 
-				"ChoosingtheRightPlants/index.htm'>Choose plants</a> for your garden that are well-adapted " + 
-				"to the region for easier, more efficient care.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/ChoosingtheRightPlants/index.htm'>Choose plants</a> for your garden that are well-adapted to the region for easier, more efficient care.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Garden', 'Document'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -204,16 +149,10 @@ gov.green.awards = {
 			name: 'Taking on Water',
 			image: '12-RainBarrel.png',
 			altText: 'Learn about rain barrels',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/" + 
-				"Rain_Water_Harvesting/index.htm'>Learn</a> about installing a rain barrel as a solution " + 
-				"to prevent flooding and store water for irrigation.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/Rain_Water_Harvesting/index.htm'>Learn</a> about installing a rain barrel as a solution to prevent flooding and store water for irrigation.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Garden', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -221,15 +160,10 @@ gov.green.awards = {
 			name: 'Tapped Out',
 			image: '13-FindAndFixLeaks.png',
 			altText: 'Learn how to detect leaks',
-			earn: "Use <a href='http://www.seattle.gov/util/EnvironmentConservation/MyHome/ReduceWaterUse/" + 
-				"FindFixLeaks/index.htm'>SPU's videos</a> to learn how to detect and fix leaks around your home.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Use <a href='http://www.seattle.gov/util/EnvironmentConservation/MyHome/ReduceWaterUse/FindFixLeaks/index.htm'>SPU's videos</a> to learn how to detect and fix leaks around your home.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -237,16 +171,10 @@ gov.green.awards = {
 			name: 'Slick',
 			image: '14-CarLeaks.png',
 			altText: 'Attend a free Auto Leaks Class',
-			earn: "Have your car inspected and learn about common leaks at a free <a href='http://www.seattle.gov/" + 
-				"util/EnvironmentConservation/OurWatersheds/ProtectOurWaters/PreventPollution/Motoroil/" + 
-				"index.htm'>Auto Leaks Class</a>.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Have your car inspected and learn about common leaks at a free <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/ProtectOurWaters/PreventPollution/Motoroil/index.htm'>Auto Leaks Class</a>.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -254,16 +182,10 @@ gov.green.awards = {
 			name: 'Off the Lot',
 			image: '15-CarWash.png',
 			altText: 'Use a commercial car wash',
-			earn: "Take your car to a <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/" + 
-				"ProtectOurWaters/PreventPollution/CarWashing/index.htm'>commercial car wash</a> equipped to " + 
-				"handle contaminated runoff.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Take your car to a <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/ProtectOurWaters/PreventPollution/CarWashing/index.htm'>commercial car wash</a> equipped to handle contaminated runoff.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -271,15 +193,10 @@ gov.green.awards = {
 			name: 'A New Leaf',
 			image: '16-plantTree.png',
 			altText: 'Help plant a tree',
-			earn: "Properly plant a tree on your property or get involved in a <a href='http://www.seattle.gov/" + 
-				"trees/'>community ReLeaf effort</a>.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Properly plant a tree on your property or get involved in a <a href='http://www.seattle.gov/trees/'>community ReLeaf effort</a>.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage', 'Garden'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -287,16 +204,10 @@ gov.green.awards = {
 			name: 'Best Friend',
 			image: '17-petWaste.png',
 			altText: 'Pick up pet waste',
-			earn: "Pick up <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/" + 
-				"ProtectOurWaters/PreventPollution/Petwaste/index.htm'>pet waste</a> and dispose of it properly " + 
-				"to prevent contamination of local streams and Puget Sound.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Pick up <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/ProtectOurWaters/PreventPollution/Petwaste/index.htm'>pet waste</a> and dispose of it properly to prevent contamination of local streams and Puget Sound.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -304,16 +215,10 @@ gov.green.awards = {
 			name: 'Locally Sourced',
 			image: '18-CRW.png',
 			altText: 'Visit the Cedar River Watershed',
-			earn: "Take a <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/" + 
-				"CedarRiverWatershed/ProgramsTours/index.htm'>tour or field trip</a> to learn more about the " + 
-				"Cedar River Watershed.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Take a <a href='http://www.seattle.gov/util/EnvironmentConservation/OurWatersheds/CedarRiverWatershed/ProgramsTours/index.htm'>tour or field trip</a> to learn more about the Cedar River Watershed.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -321,16 +226,10 @@ gov.green.awards = {
 			name: 'No Tag-Backs',
 			image: '19-graffiti.png',
 			altText: 'Clean up graffiti in the community',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/OurCity/" + 
-				"Graffiti_Prevention_&_Removal/index.htm'>Volunteer</a> individually or get a group together " + 
-				"to clean up graffiti.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/OurCity/Graffiti_Prevention_&_Removal/index.htm'>Volunteer</a> individually or get a group together to clean up graffiti.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -338,15 +237,10 @@ gov.green.awards = {
 			name: 'Make Your Mark',
 			image: '20-StencilStormDrains.png',
 			altText: 'Stencil storm drains',
-			earn: "Stencil storm drains on your own or as part of a community organization to raise awareness of " + 
-				"water contamination.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Stencil storm drains on your own or as part of a community organization to raise awareness of water contamination.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -354,15 +248,10 @@ gov.green.awards = {
 			name: 'Clearing Up',
 			image: '21-ClearStormDrains.png',
 			altText: 'Sign up to maintain a storm drain',
-			earn: "Sign up to keep a storm drain near your work or home free of debris, which prevents flooding, " + 
-				"pollution, and infrastructure damage.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Sign up to keep a storm drain near your work or home free of debris, which prevents flooding, pollution, and infrastructure damage.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -370,16 +259,10 @@ gov.green.awards = {
 			name: 'Waterfront Property',
 			image: '22-RainGardens.png',
 			altText: 'Learn about rain gardens',
-			earn: "Learn about <a href='http://www.seattle.gov/util/groups/public/@spu/@usm/documents/" + 
-				"webcontent/spu01_006288.pdf'>rain gardens</a> and see if they're the right solution for managing " + 
-				"stormwater on your property.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Learn about <a href='http://www.seattle.gov/util/groups/public/@spu/@usm/documents/webcontent/spu01_006288.pdf'>rain gardens</a> and see if they're the right solution for managing stormwater on your property.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Document', 'Drainage', 'Garden'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -387,16 +270,10 @@ gov.green.awards = {
 			name: 'Overflow',
 			image: '23-Cistern.png',
 			altText: 'Learn about rain cisterns',
-			earn: "Read about <a href='http://www.seattle.gov/util/groups/public/@spu/@usm/documents/" + 
-				"webcontent/spu01_006291.pdf'>rain cisterns</a> and see if they're a viable option for managing " + 
-				"your stormwater.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Read about <a href='http://www.seattle.gov/util/groups/public/@spu/@usm/documents/webcontent/spu01_006291.pdf'>rain cisterns</a> and see if they're a viable option for managing your stormwater.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Document', 'Drainage', 'Garden'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -404,16 +281,10 @@ gov.green.awards = {
 			name: 'Constant Vigilance',
 			image: '24-Pollution.png',
 			altText: 'Report water pollution and spills',
-			earn: "Keep an eye out for surface water pollution and spills. Check out the " + 
-				"<a href='http://www.seattle.gov/util/environmentconservation/ourwatersheds/protectourwaters/" + 
-				"preventpollution/reportspills/'>online form</a> for reporting incidents to SPU.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Keep an eye out for surface water pollution and spills. Check out the <a href='http://www.seattle.gov/util/environmentconservation/ourwatersheds/protectourwaters/preventpollution/reportspills/'>online form</a> for reporting incidents to SPU.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Drainage'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -421,16 +292,10 @@ gov.green.awards = {
 			name: 'What Plants Crave',
 			image: '25-Watering.png',
 			altText: 'Adjust garden and lawn watering habits',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/Smart_Watering/" + 
-				"index.htm'>Learn</a> how to make your lawn and garden watering routine to as efficient and " + 
-				"healthy for plants as possible. Adjust accordingly.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/Smart_Watering/index.htm'>Learn</a> how to make your lawn and garden watering routine to as efficient and healthy for plants as possible. Adjust accordingly.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Drainage', 'Garden', 'Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -438,15 +303,10 @@ gov.green.awards = {
 			name: 'Clean Streets',
 			image: '26-AdoptAStreet.png',
 			altText: 'Adopt a street',
-			earn: "Volunteer to <a href='http://www.seattle.gov/util/environmentconservation/getinvolved/" + 
-				"adoptastreet/'>adopt a street</a> and keep it free of litter.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Volunteer to <a href='http://www.seattle.gov/util/environmentconservation/getinvolved/adoptastreet/'>adopt a street</a> and keep it free of litter.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -454,15 +314,10 @@ gov.green.awards = {
 			name: 'Green Greens',
 			image: '27-GreenBusiness.png',
 			altText: 'Support green businesses',
-			earn: "Support one of the businesses featured on the <a href='http://www.seattle.gov/util/" + 
-				"ForBusinesses/GreenYourBusiness/GetontheMap/index.htm'>green business map</a>.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Support one of the businesses featured on the <a href='http://www.seattle.gov/util/ForBusinesses/GreenYourBusiness/GetontheMap/index.htm'>green business map</a>.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -470,15 +325,10 @@ gov.green.awards = {
 			name: 'Recalculating',
 			image: '28-CartSizeCalculator.png',
 			altText: 'Try the cart-size calculator',
-			earn: "Check out the <a href='http://www.seattle.gov/util/MyServices/Garbage/HouseResidentsGarbage/" + 
-				"slider/index.htm'>cart-size calculator</a> and consider using more recycling and composting.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Check out the <a href='http://www.seattle.gov/util/MyServices/Garbage/HouseResidentsGarbage/slider/index.htm'>cart-size calculator</a> and consider using more recycling and composting.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['FoodAndYard', 'Recycling', 'SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -486,16 +336,10 @@ gov.green.awards = {
 			name: 'Plant Food',
 			image: '29-compost.png',
 			altText: 'Learn more about compost',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/CompostSoil/" + 
-				"GrowingHealthySoil/index.htm'>Learn</a> how to use compost to supplement your soil and grow " + 
-				"healthier plants.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/CompostSoil/GrowingHealthySoil/index.htm'>Learn</a> how to use compost to supplement your soil and grow healthier plants.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['FoodAndYard', 'Garden'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -503,16 +347,10 @@ gov.green.awards = {
 			name: 'Extended Release',
 			image: '30-mulch.png',
 			altText: 'Learn more about mulch',
-			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/CompostSoil/" + 
-				"GrowingHealthySoil/index.htm'>Learn</a> about using mulch to conserve water and control weeds " + 
-				"in your gardens.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "<a href='http://www.seattle.gov/util/EnvironmentConservation/MyLawnGarden/CompostSoil/GrowingHealthySoil/index.htm'>Learn</a> about using mulch to conserve water and control weeds in your gardens.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Drainage', 'FoodAndYard', 'Recycling', 'SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -520,15 +358,10 @@ gov.green.awards = {
 			name: 'Green Up!',
 			image: '31-GreenUp.png',
 			altText: 'Buy electricity from renewable sources',
-			earn: "Join City Light's <a href='http://www.seattle.gov/light/Green/greenPower/greenup.asp'>Green Up! " + 
-				"Program</a> and ensure that a portion of your electricity is purchased from green producers.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Join City Light's <a href='http://www.seattle.gov/light/Green/greenPower/greenup.asp'>Green Up! Program</a> and ensure that a portion of your electricity is purchased from green producers.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Air', 'Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -536,16 +369,10 @@ gov.green.awards = {
 			name: 'Room for Improvement',
 			image: '32-EnergyAudit.png',
 			altText: 'Perform a home energy audit',
-			earn: "Have a <a href='http://www.seattle.gov/light/conserve/hea/'>professional home energy audit</a> " + 
-				"or <a href='http://www.seattle.gov/light/printdocs/DoItYourselfHome.PDF'>do your own</a> " + 
-				"using SCL's checklist.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Have a <a href='http://www.seattle.gov/light/conserve/hea/'>professional home energy audit</a> or <a href='http://www.seattle.gov/light/printdocs/DoItYourselfHome.PDF'>do your own</a> using SCL's checklist.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Document', 'Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -553,15 +380,10 @@ gov.green.awards = {
 			name: 'Bright Idea',
 			image: '33-ReplaceLEDBulb.png',
 			altText: 'Replace incandescent bulbs',
-			earn: "Replace all of the incandescent light bulbs in your home with <a href='http://www.seattle.gov/" + 
-				"light/home-lighting/'>CFL or LED alternatives</a>.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Replace all of the incandescent light bulbs in your home with <a href='http://www.seattle.gov/light/home-lighting/'>CFL or LED alternatives</a>.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Air', 'Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -569,17 +391,10 @@ gov.green.awards = {
 			name: 'Kill-a-Watt',
 			image: '34-KillAWatt.png',
 			altText: 'Measure power consumption by inactive devices',
-			earn: "Borrow the <a href='http://www.spl.org/about-the-library/library-news-releases/" + 
-				"help-conserve-energy-and-lower-electric-bills----borrow-a-kill-a-watt-meter-from-the-" + 
-				"seattle-public-library'>Kill-a-Watt device</a> from Seattle Public Libraries to see power " + 
-				"consumption by inactive devices",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Borrow the <a href='http://www.spl.org/about-the-library/library-news-releases/help-conserve-energy-and-lower-electric-bills----borrow-a-kill-a-watt-meter-from-the-seattle-public-library'>Kill-a-Watt device</a> from Seattle Public Libraries to see power consumption by inactive devices",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -588,13 +403,9 @@ gov.green.awards = {
 			image: '35-SmartPowerStrip.png',
 			altText: 'Switch to smart power strips',
 			earn: "Switch to smart power strips that stop power from flowing to inactive devices",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -602,15 +413,10 @@ gov.green.awards = {
 			name: 'Shining Star',
 			image: '36-EnergyStar.png',
 			altText: 'Check your appliances for efficiency certification',
-			earn: "Check your appliances for Energy Forward or Energy Star certification to ensure efficient power " + 
-				"use. Consider replacing inefficient devices.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Check your appliances for Energy Forward or Energy Star certification to ensure efficient power use. Consider replacing inefficient devices.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -619,13 +425,9 @@ gov.green.awards = {
 			image: '37-DressWarmer.png',
 			altText: 'Dress for the season',
 			earn: "In winter, dress warmer before you consider turning on the thermostat.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -634,13 +436,9 @@ gov.green.awards = {
 			image: '38-HeaterFinsFans.png',
 			altText: 'Keep heater fins and wall fans clear of dust',
 			earn: "Vaccuum dust from baseboard heater fins and wall fan heaters for more efficient heating.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -648,15 +446,10 @@ gov.green.awards = {
 			name: 'Clean Energy',
 			image: '39-ShowerHead.png',
 			altText: 'Install a WaterSense showerhead',
-			earn: "Install a <a href='http://www.seattle.gov/light/conserve/showerhead/'>WaterSense showerhead</a> " +
-				"to reduce water use without reducing water pressure.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Install a <a href='http://www.seattle.gov/light/conserve/showerhead/'>WaterSense showerhead</a> to reduce water use without reducing water pressure.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -665,13 +458,9 @@ gov.green.awards = {
 			image: '40-FaucetDrips.png',
 			altText: 'Check your faucets for leaks',
 			earn: "Check your faucets for leaks or drips. If you find any, fix them immediately.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -680,13 +469,9 @@ gov.green.awards = {
 			image: '41-CheckFridge.png',
 			altText: 'Check the door seals on your refrigerator',
 			earn: "Check your fridge for loose or damaged door seals. Replace them if they are not sealing properly.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -695,13 +480,9 @@ gov.green.awards = {
 			image: '42-WashFullLoads.png',
 			altText: 'Wash full loads of laundry',
 			earn: "Wash only full loads of laundry in cold water.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -710,13 +491,9 @@ gov.green.awards = {
 			image: '43-DryFullLoads.png',
 			altText: 'Dry full loads of laundry',
 			earn: "Dry only full loads while doing laundry.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -725,13 +502,9 @@ gov.green.awards = {
 			image: '44-HangDry.png',
 			altText: 'Air dry your laundry',
 			earn: "Hang dry your laundry, or use the air-dry option on your dryer.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -740,13 +513,9 @@ gov.green.awards = {
 			image: '45-Dishwasher.png',
 			altText: 'Run full loads in your dishwasher',
 			earn: "Run only full loads in your dishwasher.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Water'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -756,13 +525,9 @@ gov.green.awards = {
 			altText: 'Switch to eBilling',
 			earn: "Switch to <a href='http://www.seattle.gov/util/MyServices/MyAccount/PaymentsandBills/" + 
 				"LoginSignupPaperlessBilling/index.htm'>eBilling</a> to save paper.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -771,13 +536,9 @@ gov.green.awards = {
 			image: '47-Bicycle.png',
 			altText: 'Bike instead of driving',
 			earn: "Ride your bike to rather than driving.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Air', 'Transportation'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -786,13 +547,9 @@ gov.green.awards = {
 			image: '48-PublicTransportation.png',
 			altText: 'Use public transportation',
 			earn: "Take public transportation rather than driving.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Transportation'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -800,15 +557,10 @@ gov.green.awards = {
 			name: 'Sorted Out',
 			image: '49-LookUpTool.png',
 			altText: 'Sort waste into trash, recycling, and compost',
-			earn: "Dispose of waste properly by sorting it by disposal method - use the <a href= " + 
-				"'http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted'>Look Up Tool</a> if you're not sure.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			earn: "Dispose of waste properly by sorting it by disposal method - use the <a href='http://www.seattle.gov/util/MyServices/LookItUpWhatsAccepted'>Look Up Tool</a> if you're not sure.",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['FoodAndYard', 'Recycling', 'SolidWaste', 'WebTool'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -817,13 +569,9 @@ gov.green.awards = {
 			image: '50-Walking.png',
 			altText: 'Walk instead of using a vehicle',
 			earn: "Walk instead of using a vehicle.",
-			desc: "<p>Shabby chic brunch pickled flexitarian YOLO, sartorial Shoreditch forage farm-to-table " + 
-				"semiotics cray. 90's synth Shoreditch yr. Single-origin coffee shabby chic roof party street art " + 
-				"typewriter. +1 actually raw denim, Schlitz ugh gastropub iPhone Pitchfork biodiesel tattooed VHS. " +
-				"Asymmetrical VHS Truffaut, Thundercats fap meh synth. Schlitz Vice blog asymmetrical pug fanny " + 
-				"pack. Asymmetrical bicycle rights squid, pickled banh mi trust fund Portland tofu.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Air', 'Community', 'Transportation'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		}
 	],
@@ -847,13 +595,10 @@ gov.green.awards = {
 			image: 'bronzeTrophyReduceReuse.png',
 			altText: 'alt for image',
 			earn: 'Earn 3 distinct SolidWaste badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Trophies'],
 			requirement: 3,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -862,13 +607,10 @@ gov.green.awards = {
 			image: 'silverTrophyReduceReuse.png',
 			altText: 'alt for image',
 			earn: 'Earn 5 distinct SolidWaste badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Trophies'],
 			requirement: 5,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -877,13 +619,10 @@ gov.green.awards = {
 			image: 'goldTrophyReduceReuse.png',
 			altText: 'alt for image',
 			earn: 'Earn 8 distinct SolidWaste badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Trophies'],
 			requirement: 8,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -892,13 +631,10 @@ gov.green.awards = {
 			image: 'platinumTrophyReduceReuse.png',
 			altText: 'alt for image',
 			earn: 'Earn all 10 distinct SolidWaste badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Trophies'],
 			requirement: 10,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -907,13 +643,10 @@ gov.green.awards = {
 			image: 'bronzeTrophyCommunity.png',
 			altText: 'alt for image',
 			earn: 'Earn five distinct Community badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Trophies'],
 			requirement: 5,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -922,13 +655,10 @@ gov.green.awards = {
 			image: 'silverTrophyCommunity.png',
 			altText: 'alt for image',
 			earn: 'Earn 9 distinct Community badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Trophies'],
 			requirement: 9,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -937,13 +667,10 @@ gov.green.awards = {
 			image: 'goldTrophyCommunity.png',
 			altText: 'alt for image',
 			earn: 'Earn 13 distinct Community badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Trophies'],
 			requirement: 13,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -952,13 +679,10 @@ gov.green.awards = {
 			image: 'platinumTrophyCommunity.png',
 			altText: 'alt for image',
 			earn: 'Earn all 18 distinct Community badges.',
-			desc: "<p>Forget it, Donny. You're out of your element. Near the In-and-Out Burger. Is this yours, " + 
-				"Larry? Is this your homework, Larry? I was, uh, one of the authors of the Port Huron Statement " + 
-				"—The original Port Huron Statement. Not the compromised second draft. Well sir, it's this rug I " + 
-				"have, really tied the room together. Yeah. Roadie for Metallica. Speed of Sound Tour.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Trophies'],
 			requirement: 18,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		}
 	],
@@ -982,14 +706,10 @@ gov.green.awards = {
 			image: 'ribbonYellowGreenStar.png',
 			altText: 'alt for image',
 			earn: 'Earn SolidWaste badges 5 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Ribbons'],
 			requirement: 5,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -998,14 +718,10 @@ gov.green.awards = {
 			image: 'ribbonRedGrnStar.png',
 			altText: 'alt for image',
 			earn: 'Earn SolidWaste badges 10 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Ribbons'],
 			requirement: 10,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1014,14 +730,10 @@ gov.green.awards = {
 			image: 'ribbonBlueGrnStar.png',
 			altText: 'alt for image',
 			earn: 'Earn SolidWaste badges 15 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Ribbons'],
 			requirement: 15,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1030,14 +742,10 @@ gov.green.awards = {
 			image: 'ribbonGreenGrnStar.png',
 			altText: 'alt for image',
 			earn: 'Earn SolidWaste badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['SolidWaste', 'Ribbons'],
 			requirement: 20,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1046,14 +754,10 @@ gov.green.awards = {
 			image: 'ribbonYellowYellowStar.png',
 			altText: 'alt for image',
 			earn: 'Earn Community badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Ribbons'],
 			requirement: 5,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1062,14 +766,10 @@ gov.green.awards = {
 			image: 'ribbonRedYellowStar.png',
 			altText: 'alt for image',
 			earn: 'Earn Community badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Ribbons'],
 			requirement: 10,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1078,14 +778,10 @@ gov.green.awards = {
 			image: 'ribbonBlueYellowStar.png',
 			altText: 'alt for image',
 			earn: 'Earn Community badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Ribbons'],
 			requirement: 15,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1094,14 +790,10 @@ gov.green.awards = {
 			image: 'ribbonGreenYellowStar.png',
 			altText: 'alt for image',
 			earn: 'Earn Community badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Ribbons'],
 			requirement: 20,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{	
@@ -1110,14 +802,10 @@ gov.green.awards = {
 			image: 'ribbonYellLightBulb.png',
 			altText: 'alt for image',
 			earn: 'Earn Power badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Ribbons'],
 			requirement: 5,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1126,14 +814,10 @@ gov.green.awards = {
 			image: 'ribbonRedLightBulb.png',
 			altText: 'alt for image',
 			earn: 'Earn Power badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Ribbons'],
 			requirement: 10,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1142,14 +826,10 @@ gov.green.awards = {
 			image: 'ribbonBlueLightBulb.png',
 			altText: 'alt for image',
 			earn: 'Earn Power badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Ribbons'],
 			requirement: 15,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		},
 		{
@@ -1158,14 +838,10 @@ gov.green.awards = {
 			image: 'ribbonGreenLightBulb.png',
 			altText: 'alt for image',
 			earn: 'Earn Power badges 20 times.',
-			desc: "<p>Goodbye, cruel world. Goodbye, cruel lamp. Goodbye, cruel velvet drapes, lined with what " + 
-				"would appear to be some sort of cruel muslin and the cute little pom-pom curtain pull cords. " + 
-				"Cruel though they may be&hellip; Son, as your lawyer, I declare y'all are in a 12-piece bucket " + 
-				"o' trouble. But I done struck you a deal: Five hours of community service cleanin' up that ol' " + 
-				"mess you caused. No argument here. Bender, quit destroying the universe!</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Power', 'Ribbons'],
 			requirement: 20,
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		}
 	],
@@ -1191,12 +867,9 @@ gov.green.awards = {
 			earn: "Show off your green thumbs by earning the <a href='badge.html?id=11'>Cherry-Picked</a> and " + 
 				"<a href='badge.html?id=16'>A New Leaf</a> badges.",
 			components: [11, 16],
-			desc: "<p>Hey, whatcha watching? Doomsday device? Ah, now the ball's in Farnsworth's court! Now, now. " + 
-				"Perfectly symmetrical violence never solved anything. In your time, yes, but nowadays shut up! " + 
-				"Besides, these are adult stemcells, harvested from perfectly healthy adults whom I killed for " + 
-				"their stemcells.</p>",
+			desc: "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean accumsan luctus lobortis. Vivamus fringilla, leo dictum vulputate pharetra, dui magna consectetur felis, non convallis sem risus non felis. Duis neque elit, efficitur aliquam metus eget, tincidunt pulvinar dui. Duis et felis volutpat urna tincidunt finibus id quis tortor. Duis non orci eu nibh venenatis placerat et semper sapien. Curabitur quis ligula condimentum, facilisis mauris id, blandit nisl. In ullamcorper diam sed nisi aliquet, non semper mi malesuada.</p>",
 			tags: ['Community', 'Document', 'Drainage', 'Garden'],
-			bonus: 'info.png',
+			bonus: 'bonus.gif',
 			bonusAlt: 'alt for bonus'
 		}
 	]
