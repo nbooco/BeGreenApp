@@ -5,7 +5,7 @@
 	$(document).ready(function(){
 		setUp();
 		progress = JSON.parse(localStorage["userProgress"]);
-		populator();
+		caller();
 	});
 	
 	// Initializes an empty user data file if none exists	
@@ -47,47 +47,32 @@
 	}
 
 	// Populate respective ribbon and trophy areas with unearned awards and progress bars
-	function populator() {
+	function caller() {
 		var source = gov.green.awards;
-		for (var i = 0; i < source.trophies.length; i++) {
-			// Check if trophy has been earned
-			if (!(progress.trophies.hasOwnProperty(source.trophies[i].id.toString()))) {
-				var soFar = progress["distinct" + source.trophies[i].tags[0]];
-				var threshold = source.trophies[i].requirement;
+		populator(source, 'trophies', '#trophies', 'trophy');
+		populator(source, 'ribbons', '#ribbons', 'ribbon');
+	}
+
+	function populator(source, prize, division, single) {
+		for (var i = 0; i < source[prize].length; i++) {
+			// Check if award has been earned
+			if (!(progress[prize].hasOwnProperty(source[prize][i].id.toString()))) {
+				var soFar = progress["distinct" + source[prize][i].tags[0]];
+				var threshold = source[prize][i].requirement;
 				var bar = (soFar / threshold).toFixed(2) * 100;
-				var nameLevel = source.trophies[i].name.split(" - ");
-				$('#trophies').append("<figure></figure>");
-				$('#trophies figure').last().append("<a href='trophy.html?id=" + source.trophies[i].id + 
-					"'><img src='images/" + source.trophies[i].image + "' alt='" + source.trophies[i].name + 
+				var nameLevel = source[prize][i].name.split(" - ");
+				$(division).append("<figure></figure>");
+				$(division + ' figure').last().append("<a href='" + single + ".html?id=" + source[prize][i].id + 
+					"'><img src='images/" + source[prize][i].image + "' alt='" + source[prize][i].name + 
 					"'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br />" + soFar + " of " + threshold + 
 					" badges</figcaption><div class='progress'><div class='progress-bar' " + 
-					"role='progressbar' aria-valuenow='" + progress["distinct" + source.trophies[i].tags[0]] + 
+					"role='progressbar' aria-valuenow='" + progress["distinct" + source[prize][i].tags[0]] + 
 					"' aria-valuemin='0' aria-valuemax='" + threshold + "' style='width: " + bar + "%;'>" + 
 					"<span class='sr-only'>" + soFar + "/" + threshold + "</span></div></div></a>");	  
 			}
 		};
-		if (!($('#trophies').children().length)) {
-			$('#trophies').prev().hide();
-		};
-		for (var i = 0; i < source.ribbons.length; i++) {
-			// Check if ribbon has been earned
-			if (!(progress.ribbons.hasOwnProperty(source.ribbons[i].id.toString()))) {
-				var soFar = progress["distinct" + source.ribbons[i].tags[0]];
-				var threshold = source.ribbons[i].requirement;
-				var bar = (soFar / threshold).toFixed(2) * 100;
-				var nameLevel = source.ribbons[i].name.split(" - ");
-				$('#ribbons').append("<figure></figure>");
-				$('#ribbons figure').last().append("<a href='ribbon.html?id=" + source.ribbons[i].id + 
-					"'><img src='images/" + source.ribbons[i].image + "' alt='" + source.ribbons[i].name + 
-					"'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br />" + soFar + " of " + threshold + 
-					" badges</figcaption><div class='progress'><div class='progress-bar' " + 
-					"role='progressbar' aria-valuenow='" + progress["distinct" + source.ribbons[i].tags[0]] + 
-					"' aria-valuemin='0' aria-valuemax='" + threshold + "' style='width: " + bar + "%;'>" + 
-					"<span class='sr-only'>" + soFar + "/" + threshold + "</span></div></div></a>");	  
-			}
-		};
-		if (!($('#ribbons').children().length)) {
-			$('#ribbons').prev().hide();
+		if (!($(division).children().length)) {
+			$(division).prev().hide();
 		};
 	}
 }());
