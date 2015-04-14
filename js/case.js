@@ -48,8 +48,40 @@
 
 	// Populate case sections
 	function populator() {
-		// Set up tweet buttons for each award type, unless no awards of that type have been earned.
-		if (Object.keys(progress.trophies).length == 1) {
+		var source = gov.green.awards;
+		findPlace(source, 'badges', '#badges', 'badge');
+		findPlace(source, 'trophies', '#trophies', 'trophy');
+		findPlace(source, 'ribbons', '#ribbons', 'ribbon');
+		findPlace(source, 'stickers', '#stickers', 'sticker');
+	}
+
+	function findPlace(source, prizes, division, single) {
+		var keys = Object.keys(progress[prizes]);
+		// Find earned awards
+		var earned = $.grep(source[prizes], function(obj) {
+			return keys.indexOf(obj.id.toString()) > -1;
+		});
+		// Add earned awards to ribbon case
+		for (var i = 0; i < earned.length; i++) {
+			var nameLevel = earned[i].name.split(" - ");
+			$(division).append("<figure><a href='" + single + ".html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
+				"' src='images/" + earned[i].image + "'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br /><em>Earned " + 
+				progress[prizes[earned[i].id.toString()]] + "</em></figcaption></a></figure>");  
+		};
+	}
+
+	/*	function socialButtons(buttonId, singular, plural) {
+		if (Object.keys(progress[plural]).length == 1) {
+			$(buttonId).attr("data-text", "I've earned " + Object.keys(progress[plural]).length + singular + " on the Seattle Big Green Challenge!");
+		} else if (Object.keys(progress[plural]).length > 1) {
+			$(buttonId).attr("data-text", "I've earned " + Object.keys(progress[plural]).length + plural + " on the Seattle Big Green Challenge!");
+		} else {
+			$(buttonId).parent().hide();
+		};
+	}*/
+
+	// Set up tweet buttons for each award type, unless no awards of that type have been earned.
+		/* if (Object.keys(progress.trophies).length == 1) {
 			$("#tweetTrophy").attr("data-text", "I've earned " + Object.keys(progress.trophies).length + " trophy on the Seattle Big Green Challenge!");
 		} else if (Object.keys(progress.trophies).length > 1) {
 			$("#tweetTrophy").attr("data-text", "I've earned " + Object.keys(progress.trophies).length + " trophies on the Seattle Big Green Challenge!");
@@ -76,53 +108,5 @@
 			$("#tweetBadge").attr("data-text", "I've earned " + Object.keys(progress.badges).length + " badges on the Seattle Big Green Challenge!");
 		} else {
 			$("#tweetBadge").parent().hide();
-		};
-		var source = gov.green.awards;
-		var badgeKeys = Object.keys(progress.badges);
-		// Find all earned badges
-		var earned = $.grep(source.badges, function(obj) {
-			return badgeKeys.indexOf(obj.id.toString()) > -1;
-		})
-		// Add earned badges to badge case
-		for (var i = 0; i < earned.length; i++) {
-			$('#badges').append("<figure><a href='badge.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + 
-				progress.badges[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
-		};
-		var trophyKeys = Object.keys(progress.trophies);
-		// Find all earned trophies
-		var earned = $.grep(source.trophies, function(obj) {
-			return trophyKeys.indexOf(obj.id.toString()) > -1;
-		})
-		// Add earned trophies to trophy case
-		for (var i = 0; i < earned.length; i++) {
-			var nameLevel = earned[i].name.split(" - ");
-			$('#trophies').append("<figure><a href='trophy.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br /><em>Earned " + 
-				progress.trophies[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
-		};
-		var ribbonKeys = Object.keys(progress.ribbons);
-		// Find earned ribbons
-		var earned = $.grep(source.ribbons, function(obj) {
-			return ribbonKeys.indexOf(obj.id.toString()) > -1;
-		})
-		// Add earned ribbons to ribbon case
-		for (var i = 0; i < earned.length; i++) {
-			var nameLevel = earned[i].name.split(" - ");
-			$('#ribbons').append("<figure><a href='ribbon.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + nameLevel[0] + "<br />" + nameLevel[1] + "<br /><em>Earned " + 
-				progress.ribbons[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
-		};
-		var stickerKeys = Object.keys(progress.stickers);
-		// Find earned stickers
-		var earned = $.grep(source.stickers, function(obj) {
-			return stickerKeys.indexOf(obj.id.toString()) > -1;
-		})
-		// Add earned stickers to sticker case
-		for (var i = 0; i < earned.length; i++) {
-			$('#stickers').append("<figure><a href='sticker.html?id=" + earned[i].id + "'><img alt='" + earned[i].name + 
-				"' src='images/" + earned[i].image + "'><figcaption>" + earned[i].name	+ "<br /><em>Earned " + 
-				progress.stickers[earned[i].id.toString()] + "</em></figcaption></a></figure>");  
-		};
-	}
+		};*/
 }());
